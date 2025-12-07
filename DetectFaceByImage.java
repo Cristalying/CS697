@@ -44,8 +44,8 @@ public class DetectFaceByImage {
     private static final Log logger = LogFactory.getLog(DetectFaceByImage.class);
 
     private static final String COLLECTION_ID = Framework.getProperty("aws.rekognition.collection.id", "TwelveApostles");
-    private static final String BUCKET = Framework.getProperty("nuxeo.s3storage.bucket", "nike-binaries");
-    private static final String BUCKET_PREFIX = Framework.getProperty("nuxeo.s3storage.bucket_prefix", "nike-binary/");
+    private static final String BUCKET = Framework.getProperty("nuxeo.s3storage.bucket", "****");
+    private static final String BUCKET_PREFIX = Framework.getProperty("nuxeo.s3storage.bucket_prefix", "*****");
     private static final Set<String> ALLOWED_MIME_TYPES = Set.of("image/jpeg", "image/png");
 
     @Context
